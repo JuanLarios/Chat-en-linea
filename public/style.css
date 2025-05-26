@@ -1,0 +1,85 @@
+/* Fondo negro y texto tipo consola */
+body {
+  background-color: #000;
+  color: #00FF00;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #00FF00;
+  padding: 20px;
+}
+
+/* Área de login */
+#login {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#nombre-usuario {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  max-width: 300px;
+  background-color: #111;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+}
+
+#ingresar {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #111;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  cursor: pointer;
+}
+
+/* Área del chat */
+#chat {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+#chat-box {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #00FF00;
+  padding: 10px;
+  background-color: #000;
+}
+
+#formulario-chat {
+  display: flex;
+  margin-top: 10px;
+}
+
+#mensaje {
+  flex: 1;
+  padding: 10px;
+  background-color: #111;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+}
+
+#formulario-chat button {
+  padding: 10px 20px;
+  background-color: #111;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  cursor: pointer;
+}
+
+/* Mensajes individuales */
+#chat-box div {
+  margin-bottom: 8px;
+  white-space: pre-wrap;
+}
+
+
